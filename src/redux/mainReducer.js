@@ -1,9 +1,9 @@
-import user from "./Slices/userSlice";
+import search from "./Slices/searchSlice";
 
 export const mainReducer = {
-  user: user.reducer,
+  search: search.reducer,
 };
 
-export const selectUser = (state) => {
-  return state.user;
+export const selectSearch = (state) => {
+  return state.search;
 };
